@@ -1,13 +1,13 @@
 # ReactJS Experiments
 
-**1. An intro to the reactjs world**
+1. **An intro to the reactjs world**
   - The idea of reactjs
   - Declarative programming
   - Functional approach
   - Composition
   - JSX
   - Reusable components
-**2. Create a component (branch intro)**
+2. **Create a component (branch intro)**
   - createClass/extends
   - Rendering
   - Attach to the dom
@@ -15,13 +15,13 @@
   - State management
     - demo write a click counter
   - Component lifecycle
-**3. A better approach (branch redux)**
+3. **A better approach (branch redux)**
   - Don't mess with state
   - Dummy components vs Smart components
   - Components as functions
   - Redux pattern
   - Refactoring to redux implementation
-**4. Tooling**
+4. **Tooling**
   - Setup and tools
     - npm
     - web pack
@@ -34,7 +34,7 @@
     - dev vs prod
     - hot reload
   - Testing
-**5. A real world application (branch master)**
+5. **A real world application (branch master)**
   - A spotify client
     - Search for an artist
     - Show the artists
