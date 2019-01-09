@@ -7,7 +7,7 @@
   - Composition
   - JSX
   - Reusable components
-2. **Create a component (branch intro)**
+2. **Create a component (intro)**
   - createClass/extends
   - Rendering
   - Attach to the dom
@@ -15,7 +15,7 @@
   - State management
     - demo write a click counter
   - Component lifecycle
-3. **A better approach (branch redux)**
+3. **A better approach (redux)**
   - Don't mess with state
   - Dummy components vs Smart components
   - Components as functions
