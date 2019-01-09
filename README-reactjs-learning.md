@@ -43,6 +43,10 @@
   - Routing
   - Testing
 
+### React APIs
+  - React.createElement
+  - ReactDOM.render
+
 ### React commands
   - npm install -g create-react-app
 
