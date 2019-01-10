@@ -7,6 +7,7 @@
   - Composition
   - JSX
   - Reusable components
+
 2. **Create a component (intro)**
   - createClass/extends
   - Rendering
@@ -15,7 +16,8 @@
   - State management
     - demo write a click counter
   - [Component Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
-    ![](/documents/images/react-component-lifecycle.png?raw=true)
+    ![](/documents/images/react-component-lifecycle.png?raw=true){:height="36px" width="36px"}
+
 3. **A better approach (redux)**
   - Don't mess with state
   - Dummy components vs Smart components
@@ -35,6 +37,7 @@
     - dev vs prod
     - hot reload
   - Testing
+
 5. **A real world application (branch master)**
   - A spotify client
     - Search for an artist
