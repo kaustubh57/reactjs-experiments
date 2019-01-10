@@ -48,9 +48,9 @@
   - Based on FLUX design pattern (developed by Facebook)
   - Only single store (no dispatcher like flux)
   - Flux vs Redux pattern
-    | Flux             |  Redux |
-    :-------------------------:|:-------------------------:
-    ![](/documents/images/flux-pattern.png)  |  ![](/documents/images/redux-pattern.png)
+| Flux             |  Redux |
+:-------------------------:|:-------------------------:
+![](/documents/images/flux-pattern.png)  |  ![](/documents/images/redux-pattern.png)
     - Redux Single state managed by functions
       ![](/documents/images/redux-single-state-managed-by-functions.png)
 
