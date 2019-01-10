@@ -16,7 +16,7 @@
   - State management
     - demo write a click counter
   - [Component Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
-    ![](/documents/images/react-component-lifecycle.png?raw=true){:height="36px" width="36px"}
+    <img src="/documents/images/react-component-lifecycle.png?raw=true" alt="Component Lifecycle" height="100px"/>
 
 3. **A better approach (redux)**
   - Don't mess with state
