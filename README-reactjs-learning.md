@@ -15,8 +15,7 @@
   - Properties
   - State management
     - demo write a click counter
-  - [Component Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
-
+  - [Component Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)<br/>
     <img src="/documents/images/react-component-lifecycle.png?raw=true" alt="Component Lifecycle" height="480px"/>
 
 3. **A better approach (redux)**
@@ -48,6 +47,8 @@
   - Routing
   - Testing
 
+<hr>
+
 ## Redux Learning 
 (https://www.lynda.com/React-js-tutorials/Learning-Redux/540345-2.html)
   - Based on FLUX design pattern (developed by Facebook)
@@ -60,6 +61,8 @@
 
   - Redux Single state managed by functions  
     <img src="/documents/images/redux-single-state-managed-by-functions.png" alt="Redux Single state managed by functions" height="320px"/>
+
+<hr>
 
 ### React APIs
   - React.createElement
