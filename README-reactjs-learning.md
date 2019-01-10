@@ -71,6 +71,8 @@
 ### React commands
   - npm install -g create-react-app
 
+<hr>
+
 ### Next Video Tutorials for ReactJS:
 - **DONE** [ReactJS Essential Training](https://www.lynda.com/React-js-tutorials/React-js-Essential-Training/761961-2.html)
 - [React Recipes](https://www.lynda.com/React-js-tutorials/React-Recipes/724807-2.html)
