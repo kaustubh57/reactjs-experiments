@@ -44,7 +44,8 @@
   - Routing
   - Testing
 
-## Redux Learning (https://www.lynda.com/React-js-tutorials/Learning-Redux/540345-2.html)
+## Redux Learning 
+(https://www.lynda.com/React-js-tutorials/Learning-Redux/540345-2.html)
   - Based on FLUX design pattern (developed by Facebook)
   - Only single store (no dispatcher like flux)
   - Flux vs Redux pattern
@@ -52,8 +53,9 @@
 | Flux             |  Redux |
 :-------------------------:|:-------------------------:
 ![](/documents/images/flux-pattern.png)  |  ![](/documents/images/redux-pattern.png)
-    - Redux Single state managed by functions
-      ![](/documents/images/redux-single-state-managed-by-functions.png)
+
+  - Redux Single state managed by functions
+    ![](/documents/images/redux-single-state-managed-by-functions.png)
 
 ### React APIs
   - React.createElement
