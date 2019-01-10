@@ -52,6 +52,9 @@
   - npm install -g create-react-app
 
 ### Next Video Tutorials for ReactJS:
-- [ReactJS Essential Training](https://www.lynda.com/React-js-tutorials/React-js-Essential-Training/761961-2.html)
+- **DONE** [ReactJS Essential Training](https://www.lynda.com/React-js-tutorials/React-js-Essential-Training/761961-2.html)
+- [React Recipes](https://www.lynda.com/React-js-tutorials/React-Recipes/724807-2.html)
+- [React Lifecycles](https://www.lynda.com/React-js-tutorials/React-Lifecycles/592509-2.html)
+- [React: Components, Context, and Accessibility](https://www.lynda.com/Web-Development-tutorials/React-Components-Context-Accessibility/709848-2.html)
 
 ### Next read for ReactJS:
