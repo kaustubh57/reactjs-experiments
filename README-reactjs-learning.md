@@ -58,8 +58,8 @@
 :-------------------------:|:-------------------------:
 ![](/documents/images/flux-pattern.png)  |  ![](/documents/images/redux-pattern.png)
 
-  - Redux Single state managed by functions
-    ![](/documents/images/redux-single-state-managed-by-functions.png)
+  - Redux Single state managed by functions  
+    <img src="/documents/images/redux-single-state-managed-by-functions.png" alt="Redux Single state managed by functions" height="320px"/>
 
 ### React APIs
   - React.createElement
