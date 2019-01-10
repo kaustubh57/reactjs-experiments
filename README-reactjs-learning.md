@@ -7,6 +7,7 @@
   - Composition
   - JSX
   - Reusable components
+
 2. **Create a component (intro)**
   - createClass/extends
   - Rendering
@@ -14,8 +15,9 @@
   - Properties
   - State management
     - demo write a click counter
-  - [Component Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
-    ![](/documents/images/react-component-lifecycle.png?raw=true)
+  - [Component Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)<br/>
+    <img src="/documents/images/react-component-lifecycle.png?raw=true" alt="Component Lifecycle" height="480px"/>
+
 3. **A better approach (redux)**
   - Don't mess with state
   - Dummy components vs Smart components
@@ -35,6 +37,7 @@
     - dev vs prod
     - hot reload
   - Testing
+
 5. **A real world application (branch master)**
   - A spotify client
     - Search for an artist
@@ -44,15 +47,28 @@
   - Routing
   - Testing
 
-## Redux Learning (https://www.lynda.com/React-js-tutorials/Learning-Redux/540345-2.html)
+<hr>
+
+## Redux Learning 
+(https://www.lynda.com/React-js-tutorials/Learning-Redux/540345-2.html)
   - Based on FLUX design pattern (developed by Facebook)
   - Only single store (no dispatcher like flux)
   - Flux vs Redux pattern
-    | Flux             |  Redux |
-    :-------------------------:|:-------------------------:
-    ![](/documents/images/flux-pattern.png)  |  ![](/documents/images/redux-pattern.png)
-    - Redux Single state managed by functions
-      ![](/documents/images/redux-single-state-managed-by-functions.png)
+
+| Flux             |  Redux |
+:-------------------------:|:-------------------------:
+![](/documents/images/flux-pattern.png)  |  ![](/documents/images/redux-pattern.png)
+
+  - Redux Single state managed by functions  
+    <img src="/documents/images/redux-single-state-managed-by-functions.png" alt="Redux Single state managed by functions" height="320px"/>
+
+  - Functional Programming
+    - Pure functions
+    - Immutability
+    - Composition
+      <img src="/documents/images/redux-compose.png" alt="Redux Single state managed by functions" height="320px"/>
+
+<hr>
 
 ### React APIs
   - React.createElement
@@ -60,6 +76,8 @@
 
 ### React commands
   - npm install -g create-react-app
+
+<hr>
 
 ### Next Video Tutorials for ReactJS:
 - **DONE** [ReactJS Essential Training](https://www.lynda.com/React-js-tutorials/React-js-Essential-Training/761961-2.html)
