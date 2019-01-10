@@ -66,11 +66,11 @@
     - Pure functions
     - Immutability
     - Composition
-      <br/><img src="/documents/images/redux-compose.png" alt="Redux Single state managed by functions" height="160px"/>
+      <br/><img src="/documents/images/redux-compose.png" alt="Redux compose" height="160px"/>
       - Composition used in the store by reducer function (which are composed)
       - We don't have to worry about how these reducers are composed.
       - All we have to do is identify state, write good reducers, and let the Redux store handle the rest.
-        <img src="/documents/images/redux-compose-reducer-store.png" alt="Redux Single state managed by functions" height="160px"/>
+        <img src="/documents/images/redux-compose-reducer-store.png" alt="Redux compose reducer store" height="160px"/>
 <hr>
 
 ### React APIs
