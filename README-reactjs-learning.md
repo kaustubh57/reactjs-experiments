@@ -14,7 +14,7 @@
   - Properties
   - State management
     - demo write a click counter
-  - ![Component Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+  - [Component Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 3. **A better approach (redux)**
   - Don't mess with state
   - Dummy components vs Smart components
