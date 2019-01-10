@@ -15,8 +15,8 @@
   - Properties
   - State management
     - demo write a click counter
-  - [Component Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)<br/>
-    <img src="/documents/images/react-component-lifecycle.png?raw=true" alt="Component Lifecycle" height="480px"/>
+  - [Component Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+    <br/><img src="/documents/images/react-component-lifecycle.png?raw=true" alt="Component Lifecycle" height="480px"/>
 
 3. **A better approach (redux)**
   - Don't mess with state
@@ -65,9 +65,12 @@
   - Functional Programming
     - Pure functions
     - Immutability
-    - Composition<br/>
-      <img src="/documents/images/redux-compose.png" alt="Redux Single state managed by functions" height="160px"/>
-
+    - Composition
+      <br/><img src="/documents/images/redux-compose.png" alt="Redux Single state managed by functions" height="160px"/>
+      - Composition used in the store by reducer function (which are composed)
+      - We don't have to worry about how these reducers are composed.
+      - All we have to do is identify state, write good reducers, and let the Redux store handle the rest.
+        <img src="/documents/images/redux-compose-reducer-store.png" alt="Redux Single state managed by functions" height="160px"/>
 <hr>
 
 ### React APIs
