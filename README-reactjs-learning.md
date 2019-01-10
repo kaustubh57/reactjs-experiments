@@ -62,6 +62,12 @@
   - Redux Single state managed by functions  
     <img src="/documents/images/redux-single-state-managed-by-functions.png" alt="Redux Single state managed by functions" height="320px"/>
 
+  - Functional Programming
+    - Pure functions
+    - Immutability
+    - Composition
+      <img src="/documents/images/redux-compose.png" alt="Redux Single state managed by functions" height="320px"/>
+
 <hr>
 
 ### React APIs
