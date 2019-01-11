@@ -49,6 +49,14 @@
 
 <hr>
 
+## Virtual DOM (read [here](https://reactjs.org/docs/faq-internals.html))
+  - What is the Virtual DOM?
+The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM. This process is called reconciliation.
+
+![](/documents/images/virtual-DOM.png)
+
+<hr>
+
 ## Redux Learning 
 (https://www.lynda.com/React-js-tutorials/Learning-Redux/540345-2.html)
   - Based on FLUX design pattern (developed by Facebook)
