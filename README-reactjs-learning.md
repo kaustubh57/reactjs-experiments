@@ -5,7 +5,16 @@
   - Declarative programming
   - Functional approach
   - Composition
-  - JSX
+  - JSX (https://www.codecademy.com/courses/react-101/lessons/react-jsx-intro)
+    - JSX Elements
+    - JSX Elements And Their Surroundings
+    - Attribute in JSX
+    - Nested JSX
+    - JSX Outer Elements
+    - Rendering JSX
+    - ReactDOM.render()
+    - Passing a variable to ReactDOM.render()
+    - The Virtual DOM
   - Reusable components
 
 2. **Create a component (intro)**
