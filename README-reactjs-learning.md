@@ -35,12 +35,6 @@
   - Reusable components
 
 2. **Create a component (intro)**
-  - createClass/extends
-  - Rendering
-  - Attach to the dom
-  - Properties
-  - State management
-    - demo write a click counter
   - Component Exercise / Tutorial (https://www.codecademy.com/courses/react-101/lessons/your-first-react-component)
     - Import React
     - Import ReactDOM
@@ -50,6 +44,19 @@
     - The Render Function
     - Create a Component Instance
     - Render a Component
+  - Components and Advanced JSX (https://www.codecademy.com/courses/react-101/lessons/react-components-advanced-jsx)
+    - Use multiline JSX in a Component
+    - User a variale attribute in a Component
+    - Put Logic in a Rneder Function
+    - Use a conditional in a Render Function
+    - Use "this" in a Component
+    - Use an Event Listener in a Component
+  - createClass/extends
+  - Rendering
+  - Attach to the dom
+  - Properties
+  - State management
+    - demo write a click counter
   - [Component Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
     <br/><img src="/documents/images/react-component-lifecycle.png?raw=true" alt="Component Lifecycle" height="480px"/>
 
