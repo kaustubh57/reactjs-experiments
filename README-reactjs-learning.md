@@ -15,6 +15,18 @@
     - ReactDOM.render()
     - Passing a variable to ReactDOM.render()
     - The Virtual DOM
+  - Advanced JSX (https://www.codecademy.com/courses/react-101/lessons/react-jsx-advanced)
+    - class vs className
+    - Self-Closing Tags
+    - JavaScript in Your JSX in Your Javascript
+    - Curly Braces in JSX
+    - 20 Digits of Pi in JSX
+    - Variables in JSX
+    - Event Listeners in JSX
+    - JSX Conditionals
+    - map in JSX
+    - Keys
+    - React.createElement
   - Reusable components
 
 2. **Create a component (intro)**
