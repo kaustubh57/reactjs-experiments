@@ -19,10 +19,11 @@
     - class vs className
     - Self-Closing Tags
     - JavaScript in Your JSX in Your Javascript
-    - Curly Braces in JSX
+    - Curly Braces in JSX { }
     - 20 Digits of Pi in JSX
     - Variables in JSX
     - Event Listeners in JSX
+      - List of supported events can be found [https://reactjs.org/docs/events.html#supported-events](here)
     - JSX Conditionals
     - map in JSX
     - Keys
