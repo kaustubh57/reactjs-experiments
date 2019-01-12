@@ -41,6 +41,15 @@
   - Properties
   - State management
     - demo write a click counter
+  - Component Exercise / Tutorial (https://www.codecademy.com/courses/react-101/lessons/your-first-react-component)
+    - Import React
+    - Import ReactDOM
+    - Create a Component Class
+    - Name a Component Class
+    - Component Class Instructions
+    - The Render Function
+    - Create a Component Instance
+    - Render a Component
   - [Component Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
     <br/><img src="/documents/images/react-component-lifecycle.png?raw=true" alt="Component Lifecycle" height="480px"/>
 
