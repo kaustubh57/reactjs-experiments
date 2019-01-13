@@ -54,7 +54,18 @@
   - createClass/extends
   - Rendering
   - Attach to the dom
-  - Properties
+  - Properties ([this.props](https://www.codecademy.com/courses/react-101/lessons/this-props))
+    - Access a component's props
+    - pass *props* to a component
+    - Render a component's props
+    - Pass props from component to component
+    - Render different UI based on props
+    - Put an event handler in a Component class
+    - Pass an envent handler as a prop
+    - Receive an event handler as a prop
+    - handleEvent, onEvent, and this.props.onEvent
+    - this.props.children
+    - defaultProps
   - State management
     - demo write a click counter
   - [Component Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
