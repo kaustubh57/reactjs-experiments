@@ -66,8 +66,13 @@
     - handleEvent, onEvent, and this.props.onEvent
     - this.props.children
     - defaultProps
-  - State management
-    - demo write a click counter
+  - State management ([this.state](https://www.codecademy.com/courses/react-101/lessons/this-state))
+    - Setting initial state
+    - Access a Component's state
+    - Update state with this.setState
+    - Call this.setState from another function
+    - this.setState automatically calls render
+    - Components interacting reacap
   - [Component Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
     <br/><img src="/documents/images/react-component-lifecycle.png?raw=true" alt="Component Lifecycle" height="480px"/>
 
