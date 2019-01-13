@@ -54,7 +54,7 @@
   - createClass/extends
   - Rendering
   - Attach to the dom
-  - Properties ([this.props](https://www.codecademy.com/courses/react-101/lessons/this-props))
+  - Properties ([this.props](https://www.codecademy.com/courses/react-101/lessons/this-props)): Information that gets passed from one component to another is known as "props."
     - Access a component's props
     - pass *props* to a component
     - Render a component's props
