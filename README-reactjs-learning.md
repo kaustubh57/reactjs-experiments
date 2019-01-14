@@ -73,6 +73,22 @@
     - Call this.setState from another function
     - this.setState automatically calls render
     - Components interacting reacap
+  - Stateless Components from Stateful Components (https://www.codecademy.com/courses/react-102/lessons/stateless-inherit-stateful-intro)
+    - Stateless Components from Stateful Components
+    - Child components update their parent's state
+    - Child components update their sibling's props
+    - Video player (*project*)
+    - Statefule and stateless programming patterns
+  - Advanced React
+    - Style
+    - Container Components from presentational components
+    - Stateless functional components
+    - Prop types
+    - React forms
+    - Advanced React
+  - Lifecycle Methods
+    - Mounting lifecycle methods
+    - Updating / Unmounting lifecycle methods
   - [Component Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
     <br/><img src="/documents/images/react-component-lifecycle.png?raw=true" alt="Component Lifecycle" height="480px"/>
 
@@ -96,7 +112,7 @@
     - hot reload
   - Testing
 
-5. **A real world application (branch master)**
+5. **A real world application**
   - A spotify client
     - Search for an artist
     - Show the artists
