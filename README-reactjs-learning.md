@@ -66,6 +66,7 @@
     - handleEvent, onEvent, and this.props.onEvent
     - this.props.children
     - defaultProps
+    - A React component should use *props* to store information that can be changed, but can only be changed by a *different* component.
   - State management ([this.state](https://www.codecademy.com/courses/react-101/lessons/this-state))
     - Setting initial state
     - Access a Component's state
@@ -73,14 +74,21 @@
     - Call this.setState from another function
     - this.setState automatically calls render
     - Components interacting reacap
+    - A React component should use *state* to store information that the component itself can change.
   - Stateless Components from Stateful Components ([*here*](https://www.codecademy.com/courses/react-102/lessons/stateless-inherit-stateful-intro))
-    - Stateless Components from Stateful Components
-      - Stateless components inherit from Stateful components
-      - Build a *stateful* component class
-      - Build a *stateless* component class
-      - Pass a component's state
-      - Don't update props
-    - Child components update their parent's state
+    - Stateless components inherit from Stateful components
+    - Build a *stateful* component class
+    - Build a *stateless* component class
+    - Pass a component's state
+    - Don't update props
+      - A component should never update *this.props*.
+      - A React component should use *props* to store information that can be changed, but can only be changed by a *different* component.
+      - A React component should use *state* to store information that the component itself can change.
+    - Child components update their parent's state [*here*](https://www.codecademy.com/courses/react-102/lessons/child-updates-parents-state)
+      - Define an event handler
+      - Pass the event handler
+      - Receive the event handler
+      - Automatic binding
     - Child components update their sibling's props
     - Video player (*project*)
     - Statefule and stateless programming patterns
