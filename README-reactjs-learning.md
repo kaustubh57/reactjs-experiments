@@ -75,6 +75,11 @@
     - Components interacting reacap
   - Stateless Components from Stateful Components ([*here*](https://www.codecademy.com/courses/react-102/lessons/stateless-inherit-stateful-intro))
     - Stateless Components from Stateful Components
+      - Stateless components inherit from Stateful components
+      - Build a *stateful* component class
+      - Build a *stateless* component class
+      - Pass a component's state
+      - Don't update props
     - Child components update their parent's state
     - Child components update their sibling's props
     - Video player (*project*)
