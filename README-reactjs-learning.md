@@ -73,7 +73,7 @@
     - Call this.setState from another function
     - this.setState automatically calls render
     - Components interacting reacap
-  - Stateless Components from Stateful Components (https://www.codecademy.com/courses/react-102/lessons/stateless-inherit-stateful-intro)
+  - Stateless Components from Stateful Components ([*here*](https://www.codecademy.com/courses/react-102/lessons/stateless-inherit-stateful-intro))
     - Stateless Components from Stateful Components
     - Child components update their parent's state
     - Child components update their sibling's props
