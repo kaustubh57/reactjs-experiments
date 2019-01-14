@@ -89,7 +89,11 @@
     - Pass the event handler
     - Receive the event handler
     - Automatic binding
-  - Child components update their sibling's props
+  - Child components update their sibling's props ([*here*](https://www.codecademy.com/courses/react-102/lessons/child-updates-sibling)
+    - One sibling to display, another to change
+    - Pass the right props to the right siblings
+    - Display information in a sibling component
+    - Stateless components inherit from stateful component
   - Video player (*project*)
   - Statefule and stateless programming patterns
   - Advanced React
