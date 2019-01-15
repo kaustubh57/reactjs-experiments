@@ -84,12 +84,12 @@
       - A component should never update *this.props*.
       - A React component should use *props* to store information that can be changed, but can only be changed by a *different* component.
       - A React component should use *state* to store information that the component itself can change.
-  - Child components update their parent's state [*here*](https://www.codecademy.com/courses/react-102/lessons/child-updates-parents-state)
+  - Child components update their parent's state ([*here*](https://www.codecademy.com/courses/react-102/lessons/child-updates-parents-state))
     - Define an event handler
     - Pass the event handler
     - Receive the event handler
     - Automatic binding
-  - Child components update their sibling's props ([*here*](https://www.codecademy.com/courses/react-102/lessons/child-updates-sibling)
+  - Child components update their sibling's props ([*here*](https://www.codecademy.com/courses/react-102/lessons/child-updates-sibling))
     - One sibling to display, another to change
     - Pass the right props to the right siblings
     - Display information in a sibling component
