@@ -121,6 +121,7 @@
     - A stateful, parent component passes down an event handler to a stateless, child component
     - A child component updates its parent's state, and the parent passes that state to a sibling component.
   - Dividing components into *presentational components* and *container components*
+    - Separating presentational components from display components
 4. **A better approach (redux)**
   - Don't mess with state
   - Dummy components vs Smart components
