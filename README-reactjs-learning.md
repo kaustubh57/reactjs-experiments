@@ -119,8 +119,12 @@
       - Update an input's value
       - Controlled vs Uncontrolled
     - Advanced React
-  - Lifecycle Methods
+  - Lifecycle Methods ([*here*](https://www.codecademy.com/courses/react-102/lessons/mounting-lifecycle-methods))
+    - What's a lifecycle method
     - Mounting lifecycle methods
+    - componentWillMount
+    - render
+    - componentDidMount
     - Updating / Unmounting lifecycle methods
   - [Component Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
     <br/><img src="/documents/images/react-component-lifecycle.png?raw=true" alt="Component Lifecycle" height="480px"/>
