@@ -5,7 +5,7 @@
   - Declarative programming
   - Functional approach
   - Composition
-  - JSX (https://www.codecademy.com/courses/react-101/lessons/react-jsx-intro)
+  - JSX ([*here*](https://www.codecademy.com/courses/react-101/lessons/react-jsx-intro))
     - JSX Elements
     - JSX Elements And Their Surroundings
     - Attribute in JSX
@@ -15,7 +15,7 @@
     - ReactDOM.render()
     - Passing a variable to ReactDOM.render()
     - The Virtual DOM
-  - Advanced JSX (https://www.codecademy.com/courses/react-101/lessons/react-jsx-advanced)
+  - Advanced JSX ([*here*](https://www.codecademy.com/courses/react-101/lessons/react-jsx-advanced))
     - class vs className
     - Self-Closing Tags
     - JavaScript in Your JSX in Your Javascript
@@ -23,7 +23,7 @@
     - 20 Digits of Pi in JSX
     - Variables in JSX
     - Event Listeners in JSX
-      - List of supported events can be found [here](https://reactjs.org/docs/events.html#supported-events)
+      - List of supported events can be found [*here*](https://reactjs.org/docs/events.html#supported-events)
     - JSX Conditionals
       - if / else
       - ternary
@@ -31,11 +31,11 @@
     - map in JSX
     - Keys
     - React.createElement
-      - Read more about React.createElement [here](https://reactjs.org/docs/react-api.html#react.createelement)
+      - Read more about React.createElement [*here*](https://reactjs.org/docs/react-api.html#react.createelement)
   - Reusable components
 
 ## 2. Create a component (intro)
-  - Component Exercise / Tutorial (https://www.codecademy.com/courses/react-101/lessons/your-first-react-component)
+  - Component Exercise / Tutorial ([*here*](https://www.codecademy.com/courses/react-101/lessons/your-first-react-component))
     - Import React
     - Import ReactDOM
     - Create a Component Class
@@ -44,7 +44,7 @@
     - The Render Function
     - Create a Component Instance
     - Render a Component
-  - Components and Advanced JSX (https://www.codecademy.com/courses/react-101/lessons/react-components-advanced-jsx)
+  - Components and Advanced JSX ([*here*](https://www.codecademy.com/courses/react-101/lessons/react-components-advanced-jsx))
     - Use multiline JSX in a Component
     - User a variale attribute in a Component
     - Put Logic in a Rneder Function
