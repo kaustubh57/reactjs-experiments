@@ -94,8 +94,7 @@
     - Pass the right props to the right siblings
     - Display information in a sibling component
     - Stateless components inherit from stateful component
-  - Video player (*project*)
-  - Statefule and stateless programming patterns
+  - Video player ([*project*](https://www.codecademy.com/courses/react-102/projects/video-player))
   - Advanced React
     - Style
     - Container Components from presentational components
@@ -109,13 +108,19 @@
   - [Component Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
     <br/><img src="/documents/images/react-component-lifecycle.png?raw=true" alt="Component Lifecycle" height="480px"/>
 
-3. **A better approach (redux)**
+3. **Patterns**
+  - Stateful and Stateless programming patterns ([*here*](https://www.codecademy.com/courses/react-102/lessons/child-updates-sibling/exercises/stateless-inherit-stateful-recap?action=resume_content_item))
+    - A stateful, parent component passes down a prop to a stateless, child component
+    - A stateful, parent component passes down an event handler to a stateless, child component
+    - A child component updates its parent's state, and the parent passes that state to a sibling component.
+  - Dividing components into *presentational components* and *container components*
+4. **A better approach (redux)**
   - Don't mess with state
   - Dummy components vs Smart components
   - Components as functions
   - Redux pattern
   - Refactoring to redux implementation
-4. **Tooling**
+5. **Tooling**
   - Setup and tools
     - npm
     - web pack
@@ -129,7 +134,7 @@
     - hot reload
   - Testing
 
-5. **A real world application**
+6. **A real world application**
   - A spotify client
     - Search for an artist
     - Show the artists
