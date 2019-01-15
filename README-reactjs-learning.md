@@ -105,7 +105,9 @@
     - Container Components from presentational components ([*here*](https://www.codecademy.com/courses/react-102/lessons/container-presentational-components))
       - Separate Container Components From Presentational Components: Explanation
       - Separate Container Components From Presentational Components: Apply
-    - Stateless functional components
+    - Stateless functional components ([*here*](https://www.codecademy.com/courses/react-102/lessons/stateless-functional-components))
+      - Stateless functional components
+      - Stateless functional components and props
     - Prop types
     - React forms
     - Advanced React
