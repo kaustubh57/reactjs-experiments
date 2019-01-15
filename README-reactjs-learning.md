@@ -96,13 +96,15 @@
     - Stateless components inherit from stateful component
   - Video player ([*project*](https://www.codecademy.com/courses/react-102/projects/video-player))
   - Advanced React
-    - Style
+    - Style ([*here*](https://www.codecademy.com/courses/react-102/lessons/style))
       - Inline styles
       - Make a style object variable
       - Style name syntax
       - Style value syntax
       - Share styles across multiple components
-    - Container Components from presentational components
+    - Container Components from presentational components ([*here*](https://www.codecademy.com/courses/react-102/lessons/container-presentational-components))
+      - Separate Container Components From Presentational Components: Explanation
+      - Separate Container Components From Presentational Components: Apply
     - Stateless functional components
     - Prop types
     - React forms
