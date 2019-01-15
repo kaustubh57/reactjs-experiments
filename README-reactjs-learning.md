@@ -126,7 +126,14 @@
   - componentWillMount
   - render
   - componentDidMount
-  - Updating / Unmounting lifecycle methods
+  - Updating / Unmounting lifecycle methods ([*here*](https://www.codecademy.com/courses/react-102/lessons/updating-unmounting-lifecycle-methods))
+    - Updating lifecycle methods
+    - componentWillReceiveProps
+    - shouldComponentUpdate
+    - componentWillUpdate
+    - componentDidUpdate
+    - componentWillUnmount
+    - Lifecycle methods recap
   - [Component Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
     <br/><img src="/documents/images/react-component-lifecycle.png?raw=true" alt="Component Lifecycle" height="480px"/>
 
