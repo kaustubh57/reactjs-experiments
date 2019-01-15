@@ -23,7 +23,7 @@
     - 20 Digits of Pi in JSX
     - Variables in JSX
     - Event Listeners in JSX
-      - List of supported events can be found [*here*](https://reactjs.org/docs/events.html#supported-events)
+      - List of supported events can be found ([*here*](https://reactjs.org/docs/events.html#supported-events))
     - JSX Conditionals
       - if / else
       - ternary
@@ -31,7 +31,7 @@
     - map in JSX
     - Keys
     - React.createElement
-      - Read more about React.createElement [*here*](https://reactjs.org/docs/react-api.html#react.createelement)
+      - Read more about React.createElement ([*here*](https://reactjs.org/docs/react-api.html#react.createelement))
   - Reusable components
 
 ## 2. Create a component (intro)
