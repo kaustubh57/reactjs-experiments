@@ -54,7 +54,7 @@
   - createClass/extends
   - Rendering
   - Attach to the dom
-  - Properties ([this.props](https://www.codecademy.com/courses/react-101/lessons/this-props))
+  - Properties ([this.props](https://www.codecademy.com/courses/react-101/lessons/this-props)): Information that gets passed from one component to another is known as "props."
     - Access a component's props
     - pass *props* to a component
     - Render a component's props
@@ -66,18 +66,70 @@
     - handleEvent, onEvent, and this.props.onEvent
     - this.props.children
     - defaultProps
-  - State management
-    - demo write a click counter
+    - A React component should use *props* to store information that can be changed, but can only be changed by a *different* component.
+  - State management ([this.state](https://www.codecademy.com/courses/react-101/lessons/this-state))
+    - Setting initial state
+    - Access a Component's state
+    - Update state with this.setState
+    - Call this.setState from another function
+    - this.setState automatically calls render
+    - Components interacting reacap
+    - A React component should use *state* to store information that the component itself can change.
+  - Stateless Components from Stateful Components ([*here*](https://www.codecademy.com/courses/react-102/lessons/stateless-inherit-stateful-intro))
+    - Stateless components inherit from Stateful components
+    - Build a *stateful* component class
+    - Build a *stateless* component class
+    - Pass a component's state
+    - Don't update props
+      - A component should never update *this.props*.
+      - A React component should use *props* to store information that can be changed, but can only be changed by a *different* component.
+      - A React component should use *state* to store information that the component itself can change.
+  - Child components update their parent's state [*here*](https://www.codecademy.com/courses/react-102/lessons/child-updates-parents-state)
+    - Define an event handler
+    - Pass the event handler
+    - Receive the event handler
+    - Automatic binding
+  - Child components update their sibling's props ([*here*](https://www.codecademy.com/courses/react-102/lessons/child-updates-sibling)
+    - One sibling to display, another to change
+    - Pass the right props to the right siblings
+    - Display information in a sibling component
+    - Stateless components inherit from stateful component
+  - Video player ([*project*](https://www.codecademy.com/courses/react-102/projects/video-player))
+  - Advanced React
+    - Style ([*here*](https://www.codecademy.com/courses/react-102/lessons/style))
+      - Inline styles
+      - Make a style object variable
+      - Style name syntax
+      - Style value syntax
+      - Share styles across multiple components
+    - Container Components from presentational components ([*here*](https://www.codecademy.com/courses/react-102/lessons/container-presentational-components))
+      - Separate Container Components From Presentational Components: Explanation
+      - Separate Container Components From Presentational Components: Apply
+    - Stateless functional components
+    - Prop types
+    - React forms
+    - Advanced React
+  - Lifecycle Methods
+    - Mounting lifecycle methods
+    - Updating / Unmounting lifecycle methods
   - [Component Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
     <br/><img src="/documents/images/react-component-lifecycle.png?raw=true" alt="Component Lifecycle" height="480px"/>
 
-3. **A better approach (redux)**
+3. **Patterns**
+  - Stateful and Stateless programming patterns ([*here*](https://www.codecademy.com/courses/react-102/lessons/child-updates-sibling/exercises/stateless-inherit-stateful-recap?action=resume_content_item))
+    - A stateful, parent component passes down a prop to a stateless, child component
+    - A stateful, parent component passes down an event handler to a stateless, child component
+    - A child component updates its parent's state, and the parent passes that state to a sibling component.
+  - Dividing components into *presentational components* and *container components*
+    - Separating presentational components from display (or container) components
+  - [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005)
+4. **A better approach (redux)**
   - Don't mess with state
   - Dummy components vs Smart components
   - Components as functions
   - Redux pattern
   - Refactoring to redux implementation
-4. **Tooling**
+5. **Tooling**
   - Setup and tools
     - npm
     - web pack
@@ -91,7 +143,7 @@
     - hot reload
   - Testing
 
-5. **A real world application (branch master)**
+6. **A real world application**
   - A spotify client
     - Search for an artist
     - Show the artists
