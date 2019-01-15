@@ -108,7 +108,10 @@
     - Stateless functional components ([*here*](https://www.codecademy.com/courses/react-102/lessons/stateless-functional-components))
       - Stateless functional components
       - Stateless functional components and props
-    - Prop types
+    - Prop types ([*here*](https://www.codecademy.com/courses/react-102/lessons/proptypes))
+      - Apply propTypes
+      - Add properties to propTypes
+      - PropTypes in stateless functional components
     - React forms
     - Advanced React
   - Lifecycle Methods
