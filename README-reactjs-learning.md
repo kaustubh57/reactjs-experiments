@@ -97,6 +97,11 @@
   - Video player ([*project*](https://www.codecademy.com/courses/react-102/projects/video-player))
   - Advanced React
     - Style
+      - Inline styles
+      - Make a style object variable
+      - Style name syntax
+      - Style value syntax
+      - Share styles across multiple components
     - Container Components from presentational components
     - Stateless functional components
     - Prop types
