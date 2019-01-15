@@ -112,7 +112,12 @@
       - Apply propTypes
       - Add properties to propTypes
       - PropTypes in stateless functional components
-    - React forms
+    - React forms ([*here*](https://www.codecademy.com/courses/react-102/lessons/react-forms))
+      - Input onChange
+      - Write an input event handler
+      - Set the input's initial state
+      - Update an input's value
+      - Controlled vs Uncontrolled
     - Advanced React
   - Lifecycle Methods
     - Mounting lifecycle methods
