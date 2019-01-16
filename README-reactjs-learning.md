@@ -150,6 +150,8 @@
   - [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005)
 
 ## 6. A better approach (redux)
+  - Provides predictable state management using actions and reducers
+  - *What's an "reducers"* -> A **pure function** that takes the **previous state** and an **action** and returns the **new state**.
   - Don't mess with state
   - Dummy components vs Smart components
   - Components as functions
