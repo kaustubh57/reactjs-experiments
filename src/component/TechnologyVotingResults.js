@@ -41,15 +41,15 @@ export class TechnologyVotingResults extends React.Component {
   }
 
   votesAngularInPercentStyle() {
-    return {width: this.votesAngularInPercent()+'%', height: 10}
+    return {width: this.votesAngularInPercent()+'%', height: 10, backgroundColor: 'red'}
   }
 
   votesReactInPercentStyle() {
-    return {width: this.votesReactInPercent()+'%', height: 10}
+    return {width: this.votesReactInPercent()+'%', height: 10, backgroundColor: 'blue'}
   }
 
   votesVuejsInPercentStyle() {
-    return {width: this.votesVuejsInPercent()+'%', height: 10}
+    return {width: this.votesVuejsInPercent()+'%', height: 10, backgroundColor: 'green'}
   }
 
   render() {
@@ -63,7 +63,7 @@ export class TechnologyVotingResults extends React.Component {
             <div className="bx--col-xs-6">
               <div className="bx--progress bx--tag--cool-gray">
                 <div
-                  className="bx--progress-bar bx--tag--red"
+                  className="bx--progress-bar"
                   style={this.votesAngularInPercentStyle()}/>
               </div>
             </div>
@@ -75,7 +75,7 @@ export class TechnologyVotingResults extends React.Component {
             <div className="bx--col-xs-6">
               <div className="bx--progress bx--tag--cool-gray">
                 <div
-                  className="bx--progress-bar bx--tag--blue"
+                  className="bx--progress-bar"
                   style={this.votesReactInPercentStyle()}/>
               </div>
             </div>
@@ -87,7 +87,7 @@ export class TechnologyVotingResults extends React.Component {
             <div className="bx--col-xs-6">
               <div className="bx--progress bx--tag--cool-gray">
                 <div
-                  className="bx--progress-bar bx--tag--green"
+                  className="bx--progress-bar"
                   style={this.votesVuejsInPercentStyle()}/>
               </div>
             </div>
