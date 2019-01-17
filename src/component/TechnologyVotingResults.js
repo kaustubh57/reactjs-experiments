@@ -8,10 +8,10 @@ export class TechnologyVotingResults extends React.Component {
   }
 
   votesAngularInPercent() {
-    const angularTotal = this.store.getState().angular;
+    const angularTotal = this.store.getState().technologyVote.angular;
     if (angularTotal) {
-      const reactTotal = this.store.getState().react;
-      const vuejsTotal = this.store.getState().vuejs;
+      const reactTotal = this.store.getState().technologyVote.react;
+      const vuejsTotal = this.store.getState().technologyVote.vuejs;
       return (angularTotal / (angularTotal + reactTotal + vuejsTotal)) * 100
     } else {
       return 0;
@@ -19,10 +19,10 @@ export class TechnologyVotingResults extends React.Component {
   }
 
   votesReactInPercent() {
-    const reactTotal = this.store.getState().react;
+    const reactTotal = this.store.getState().technologyVote.react;
     if (reactTotal) {
-      const angularTotal = this.store.getState().angular;
-      const vuejsTotal = this.store.getState().vuejs;
+      const angularTotal = this.store.getState().technologyVote.angular;
+      const vuejsTotal = this.store.getState().technologyVote.vuejs;
       return (reactTotal / (angularTotal + reactTotal + vuejsTotal)) * 100
     } else {
       return 0;
@@ -30,10 +30,10 @@ export class TechnologyVotingResults extends React.Component {
   }
 
   votesVuejsInPercent() {
-    const vuejsTotal = this.store.getState().vuejs;
+    const vuejsTotal = this.store.getState().technologyVote.vuejs;
     if (vuejsTotal) {
-      const angularTotal = this.store.getState().angular;
-      const reactTotal = this.store.getState().react;
+      const angularTotal = this.store.getState().technologyVote.angular;
+      const reactTotal = this.store.getState().technologyVote.react;
       return (vuejsTotal / (angularTotal + reactTotal + vuejsTotal)) * 100
     } else {
       return 0;

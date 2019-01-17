@@ -1,5 +1,5 @@
 import React from 'react';
-import { voteAngular, voteReact, voteVuejs } from "../actions";
+import { voteAngular, voteReact, voteVuejs } from "../actions/TechnologyVotingActions";
 
 export class TechnologyVoting extends React.Component {
 

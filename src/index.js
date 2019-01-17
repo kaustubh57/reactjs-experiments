@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {createStore} from 'redux';
-import myAppReducers from './reducers';
+import myAppReducers from './reducers/TechnologyVotingReducers';
 import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
