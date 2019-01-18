@@ -1,5 +1,6 @@
 import React from 'react';
 import {interval, Observable} from 'rxjs';
+import {updateObservable1, updateObservable2} from "../actions/RxJSSimpleExampleActions";
 
 export class RxJSSimpleExample extends React.Component {
 
@@ -7,6 +8,14 @@ export class RxJSSimpleExample extends React.Component {
     super(props);
     this.store = this.props.store;
   }
+
+  handleUpdateObservable1 = () => {
+    this.store.dispatch(updateObservable1());
+  };
+
+  handleUpdateObservable2 = () => {
+    this.store.dispatch(updateObservable2());
+  };
 
   render() {
     // [START: Example 1] parent - child observable and subscription.
@@ -37,6 +46,17 @@ export class RxJSSimpleExample extends React.Component {
       parentSubscription.unsubscribe();
     }, 5000);
 
-    return <h1>RxJS Example</h1>;
+    return (
+      <div className="bx--grid">
+        <div className="bx--row">
+          <div className="bx--col-xs-4">
+            Observable1: {this.store.getState().technologyVote.angular}
+          </div>
+          <div className="bx--col-xs-4">
+            Observable2: {this.store.getState().technologyVote.react}
+          </div>
+        </div>
+      </div>
+    );
   }
 }

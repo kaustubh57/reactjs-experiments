@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {createStore} from 'redux';
-import myAppReducers from './reducers/TechnologyVotingReducers';
+import {combineReducers, createStore} from 'redux';
+import technologyVotingReducers from './reducers/TechnologyVotingReducers';
+import rxJSSimpleExampleReducers from './reducers/RxJSSimpleExampleReducers';
 import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const rootReducer = combineReducers({
+  technologyVote: technologyVotingReducers,
+  rxJSSimpleExampleData: rxJSSimpleExampleReducers
+});
+
 let store = createStore(
-  myAppReducers,
+  rootReducer,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 

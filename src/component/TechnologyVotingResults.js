@@ -102,11 +102,11 @@ export class TechnologyVotingResults extends React.Component {
           </div>
           <div className="bx--row">
             <div className="bx--col-xs-9">
-              Angular: {this.store.getState().angular}
+              Angular: {this.store.getState().technologyVote.angular}
               <br/>
-              React: {this.store.getState().react}
+              React: {this.store.getState().technologyVote.react}
               <br/>
-              Vuejs: {this.store.getState().vuejs}
+              Vuejs: {this.store.getState().technologyVote.vuejs}
             </div>
           </div>
         </div>
