@@ -27,7 +27,6 @@ export class RxJSSimpleExample extends React.Component {
     this.observable2$ = Observable.create((observer) => {
       observer.next(this.store.getState().rxJSSimpleExampleData);
       observer.next(this.store.getState().rxJSSimpleExampleData);
-      observer.next(this.store.getState().rxJSSimpleExampleData);
       observer.complete();
     });
     // [END: Example 2]
@@ -63,10 +62,10 @@ export class RxJSSimpleExample extends React.Component {
       <div className="bx--grid">
         <div className="bx--row">
           <div className="bx--col-xs-4">
-            Observable1: {this.store.getState().technologyVote.angular}
+            Observable1: {this.store.getState().rxJSSimpleExampleData.observable1}
           </div>
           <div className="bx--col-xs-4">
-            Observable2: {this.store.getState().technologyVote.react}
+            Observable2: {this.store.getState().rxJSSimpleExampleData.observable2}
           </div>
         </div>
       </div>

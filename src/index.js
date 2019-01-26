@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 import {combineReducers, createStore} from 'redux';
 import technologyVotingReducers from './reducers/TechnologyVotingReducers';
 import rxJSSimpleExampleReducers from './reducers/RxJSSimpleExampleReducers';
@@ -19,7 +20,9 @@ let store = createStore(
 
 function render() {
   ReactDOM.render(
-    <App store={store}/>,
+    <BrowserRouter>
+      <App store={store}/>
+    </BrowserRouter>,
     document.getElementById('root')
   );
 }

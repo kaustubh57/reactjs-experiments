@@ -29,7 +29,7 @@ export class TechnologyVoting extends React.Component {
               <img
                 src="https://www.logolynx.com/images/logolynx/s_58/580cb30410b78c4c20dbc9166e49a228.jpeg"
                 height="96"
-                alt="CodingTheSmartWay.com"/>
+                alt="Code Voting"/>
               <h2>What is your favorite front-end development framework 2019?</h2>
               <h4>Click on the logos below to vote!</h4>
             </div>

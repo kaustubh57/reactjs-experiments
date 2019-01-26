@@ -11,11 +11,8 @@ import {
   HeaderGlobalAction,
   SkipToContent,
 } from 'carbon-components-react/lib/components/UIShell';
-import {Button} from 'carbon-components-react';
 import './App.css';
-import {TechnologyVoting} from "./component/TechnologyVoting";
-import {TechnologyVotingResults} from "./component/TechnologyVotingResults";
-import {RxJSSimpleExample} from "./component/RxJSSimpleExample";
+import {MainRoute} from "./component/MainRoute";
 
 class App extends Component {
   constructor(props) {
@@ -29,15 +26,15 @@ class App extends Component {
         <Header aria-label="Austin Tacos">
           <SkipToContent/>
           <HeaderMenuButton aria-label="Open Menu"/>
-          <HeaderName href="#" prefix="Austin">
-            Tacos
+          <HeaderName href="#" prefix="ReactJS">
+            Experiments
           </HeaderName>
-          <HeaderNavigation aria-label="Austin Tacos">
-            <HeaderMenuItem href="#">Locations</HeaderMenuItem>
-            <HeaderMenuItem href="#">Menu</HeaderMenuItem>
-            <HeaderMenuItem href="#">Shop</HeaderMenuItem>
-            <HeaderMenuItem href="#">Our Story</HeaderMenuItem>
-            <HeaderMenuItem href="#">News</HeaderMenuItem>
+          <HeaderNavigation aria-label="ReactJS Experiments">
+            <HeaderMenuItem href="carboncomponent">Carbon Components</HeaderMenuItem>
+            <HeaderMenuItem href="redux">Redux</HeaderMenuItem>
+            <HeaderMenuItem href="svg1">SVG - 1</HeaderMenuItem>
+            <HeaderMenuItem href="svg2">SVG - 2</HeaderMenuItem>
+            <HeaderMenuItem href="rxjs">RxJS example</HeaderMenuItem>
           </HeaderNavigation>
           <HeaderGlobalBar>
             <HeaderGlobalAction aria-label="Search">
@@ -48,33 +45,10 @@ class App extends Component {
             </HeaderGlobalAction>
           </HeaderGlobalBar>
         </Header>
+
         <Content id="main-content">
           <div className="bx--grid border" style={{'textAlign': 'center'}}>
-            <div className="bx--row example-grid-row">
-              <div className="bx--col-xs-3">
-                React Component Examples
-              </div>
-              <div className="bx--col-xs-9">
-                <Button>React Carbon Component Button</Button>
-              </div>
-            </div>
-            <div className="bx--row example-grid-row">
-              <div className="bx--col-xs-3">
-                Redux Technology Voting Example
-              </div>
-              <div className="bx--col-xs-9">
-                <TechnologyVoting store={this.store}/>
-                <TechnologyVotingResults store={this.store}/>
-              </div>
-            </div>
-            <div className="bx--row example-grid-row">
-              <div className="bx--col-xs-3">
-                RxJS Example
-              </div>
-              <div className="bx--col-xs-9">
-                <RxJSSimpleExample store={this.store}/>
-              </div>
-            </div>
+            <MainRoute store={this.store}/>
           </div>
         </Content>
       </div>
